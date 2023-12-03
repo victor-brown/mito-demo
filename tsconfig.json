@@ -2,7 +2,7 @@
   "compilerOptions": {
     "types": ["node", "jest"],
     "allowJs": true,
-    "baseUrl": "./src",
+    "baseUrl": "./packages",
     "noFallthroughCasesInSwitch": true,
     "target": "es2020",
     "module": "commonjs",
@@ -10,7 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./packages",
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
